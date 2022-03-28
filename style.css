@@ -1,0 +1,102 @@
+* {
+    margin:5 px;
+    padding:0;
+    border: 0;
+}
+
+h1{
+font-family:  'Roboto Slab', serif;
+font-size: 30px;
+}
+
+#funcionamento{
+font-family:  'Roboto Slab', serif;
+font-size: 25px;
+font-style: italic;
+}
+
+#lista-tarefas{
+    min-width: 30%;
+}
+
+.item-lista-click{
+background-color: rgb(128,128,128);
+}
+
+.completed {
+    text-decoration: line-through;
+}
+
+.add-tarefa{
+display: flex;
+align-items: center;
+}
+
+#criar-tarefa{
+    font-family:  'Roboto Slab', serif;
+    font-weight: 700;
+    background-color: rgb(65, 144, 218);
+    color: white;
+    margin: 5px 5px 5px 5px;
+    border-radius: 15%;
+    height: 40px;
+    width: 130px;
+}
+
+body{
+    background-color:#16c258;
+}
+
+#texto-tarefa{
+    height: 40px;
+    width: 300px;
+    margin: 10px black solid;
+}
+
+.button-final{
+    display: flex;
+}
+
+#remover-selecionado{
+    font-family:  'Roboto Slab', serif;
+    font-weight: 700;
+    background-color: rgb(177, 24, 24);
+    color: white;
+    border-radius: 15%;
+    margin: 5px 5px 5px 5px;
+    height: 50px;
+    width: 130px;
+}
+
+#remover-finalizados{
+    font-family:  'Roboto Slab', serif;
+    font-weight: 700;
+    background-color: rgb(65, 144, 218);
+    color: white;
+    border-radius: 15%;
+    margin: 5px 5px 5px 5px;
+    height: 50px;
+    width: 130px;
+}
+
+#apaga-tudo{
+    font-family:  'Roboto Slab', serif;
+    font-weight: 700;
+    background-color: rgb(177, 24, 24);
+    color: white;
+    border-radius: 15%;
+    margin: 5px 5px 5px 5px;
+    height: 50px;
+    width: 130px;
+}
+
+#salvar-tarefas{
+    font-family:  'Roboto Slab', serif;
+    font-weight: 700;
+    background-color:orange;
+    color: white;
+    border-radius: 15%;
+    margin: 5px 5px 5px 5px;
+    height: 50px;
+    width: 130px;;
+}
